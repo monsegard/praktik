@@ -40,18 +40,4 @@ public class Product {
         }
     }
 
-   /*
-    public void setArticle_product(String article_product) {
-        this.article_product = article_product;
-    }
-
-    public void setName(String name) {
-        if (name == "") {
-            System.out.println("Нет названия");
-        } else {
-            this.name = name;
-        }
-    }
-    */
-
 }

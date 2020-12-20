@@ -63,20 +63,4 @@ public class test {
 
         System.out.println(Availability_coupon);
     }
-
-
-
-
-
-
-/*
-        String name = "";
-        if (name == "") {
-            System.out.println("Нет названия");
-        } else {
-            System.out.println(name + "жаа");
-        }
-    }
-
- */
 }
