@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T17:54:44.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 OPR/73.0.3856.284" etag="TO2bG539gQlnYVGZIVc9" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T18:05:05.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 OPR/73.0.3856.284" etag="5ZEuQYCRi92GuN8wnPI5" version="14.1.3" type="github">
   <diagram id="zsfqduk6fsHnvHHet2fW" name="Page-1">
-    <mxGraphModel dx="1360" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1133" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,28 +65,30 @@
         <mxCell id="cJfgCX2j4WKWx7YOEnct-22" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="370" y="490" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cJfgCX2j4WKWx7YOEnct-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cJfgCX2j4WKWx7YOEnct-24" target="cJfgCX2j4WKWx7YOEnct-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="cJfgCX2j4WKWx7YOEnct-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJfgCX2j4WKWx7YOEnct-24" target="cJfgCX2j4WKWx7YOEnct-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cJfgCX2j4WKWx7YOEnct-24" value="50-тонный вернулся раньше?" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJfgCX2j4WKWx7YOEnct-24" target="cJfgCX2j4WKWx7YOEnct-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-24" value="есть грузовики&lt;br&gt;в очереде" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;shadow=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="530" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="cJfgCX2j4WKWx7YOEnct-26" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="560" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cJfgCX2j4WKWx7YOEnct-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJfgCX2j4WKWx7YOEnct-27" target="cJfgCX2j4WKWx7YOEnct-12">
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cJfgCX2j4WKWx7YOEnct-27" target="cJfgCX2j4WKWx7YOEnct-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="420" as="targetPoint" />
+            <mxPoint x="340" y="700" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="280" y="400" />
-              <mxPoint x="350" y="400" />
+              <mxPoint x="240" y="640" />
+              <mxPoint x="400" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cJfgCX2j4WKWx7YOEnct-27" value="Погрузка 20-тонного&lt;br&gt;грузовика" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-27" value="Ожидание" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cJfgCX2j4WKWx7YOEnct-30" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
@@ -94,6 +96,34 @@
         </mxCell>
         <mxCell id="cJfgCX2j4WKWx7YOEnct-31" value="Конец" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="150" y="260" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJfgCX2j4WKWx7YOEnct-33" target="cJfgCX2j4WKWx7YOEnct-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=1.081;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cJfgCX2j4WKWx7YOEnct-33" target="cJfgCX2j4WKWx7YOEnct-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-33" value="20-тонный&lt;br&gt;грузовик" style="rhombus;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-36" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="530" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-38" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJfgCX2j4WKWx7YOEnct-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJfgCX2j4WKWx7YOEnct-39" value="Погрузка 20-тонного грузовика" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="550" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
